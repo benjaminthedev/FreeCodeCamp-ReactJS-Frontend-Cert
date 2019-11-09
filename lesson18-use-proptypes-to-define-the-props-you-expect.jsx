@@ -1,0 +1,1 @@
+//use-proptypes-to-define-the-props-you-expect
