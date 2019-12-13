@@ -5,6 +5,7 @@ class CampSite extends React.Component {
     render() {
         return (
             <div>
+        {/* ~This is a test */}
                 <Camper />
             </div>
         );
