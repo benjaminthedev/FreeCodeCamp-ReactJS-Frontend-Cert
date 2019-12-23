@@ -12,6 +12,9 @@ class CampSite extends React.Component {
     }
 };
 // change code below this line
+
+const Camper = props => <p>{props.name}</p>
+
 Camper.defaultProps = {
     name: 'CamperBot'
 };
