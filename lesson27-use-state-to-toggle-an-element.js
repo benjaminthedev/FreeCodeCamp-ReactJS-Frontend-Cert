@@ -1,5 +1,3 @@
-//use-state-to-toggle-an-element
-
 class MyComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -7,10 +5,15 @@ class MyComponent extends React.Component {
             visibility: false
         };
         // change code below this line
-
+        this.toggleVisibility = this.toggleVisibility.bind(this);
         // change code above this line
     }
     // change code below this line
+    toggleVisibility() {
+        this.setState(state => ({
+            visibility: !state.visibility
+        }));
+    }
 
     // change code above this line
     render() {
