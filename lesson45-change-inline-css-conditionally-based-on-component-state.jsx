@@ -1,5 +1,3 @@
-//use-a-ternary-expression-for-conditional-rendering
-
 class GateKeeper extends React.Component {
     constructor(props) {
         super(props);
